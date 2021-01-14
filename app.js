@@ -28,7 +28,6 @@ throwButton.addEventListener('click', () => {
     const selectedRadioButton = document.querySelector('input[type="radio"]:checked');
     const usersThrow = selectedRadioButton.value;
   
-
     const result = didUserWinFunc(usersThrow, computersThrow); 
     if (result === 'win') wins++;
     if (result === 'lose') losses++;
@@ -46,15 +45,7 @@ function scoreTally() {
 
 }
 
+//function resultMessageFunc ()
+       
 
-//     3) add event listener to button 
-//         -on click
-//             1) store the computers throw
-//                 - coming up with the computers throw randomly 
-//                     > getRandomThrow using math.round(math.random) *3
-//                     > asign 1/2/3 to r/p/s
-//             2) didUserWinFunc
-//                 - has two parameters
-//                     >  (player, computer)
-//                 -returns 'draw', 'win' or 'lose'
 
