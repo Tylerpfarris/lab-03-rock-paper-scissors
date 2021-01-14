@@ -23,6 +23,7 @@ body {
 }
 
 main {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,4 +122,17 @@ footer {
   label > img {
       width: 100px;
       height: 100px;
+  }
+  
+  input {
+      display: none;;
+  }
+  
+  input:checked + img {
+     border: red solid 2px;
+  }
+
+  .message-to-user {
+      padding: 10px;
+      margin: 10px;
   }

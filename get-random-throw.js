@@ -18,6 +18,9 @@ export function didUserWinFunc(player, computer) {
     if (player === 'rock' && computer === 'paper') return 'lose';
     if (player === 'scissors' && computer === 'rock') return 'lose';
     if (player === 'paper' && computer === 'scissors') return 'lose';
-
     
-}
+    
+
+
+}  
+

@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import { didUserWinFunc } from '../get-random-throw.js';
+import { didUserWinFunc, /*getRandomThrow*/ } from '../get-random-throw.js';
 
 const test = QUnit.test;
 
@@ -44,3 +44,22 @@ test('it should return lose when rock is injected in player and paper is injecte
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);
 });
+
+/*
+
+test('it should return the 1 2 or 3 (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+    const expected = 1 || 2 || 3;
+    
+    //Act 
+    // Call the function you're testing and set the result to a const
+    const actual = getRandomThrow();
+
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.equal(actual, expected);
+});
+
+
+*/
