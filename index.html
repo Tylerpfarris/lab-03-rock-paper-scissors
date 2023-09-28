@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="gutter-right logo">
+        </div>
+    </header>
+    <main>
+        <div>
+            Lets play Rock Paper Scissors! heres how:
+            <ol>
+                <li>chose which one you'd like the throw by selecting the image</li>
+                <li>press the throw button at the bottom of the page</li>
+                <li>STAND BACK</li>
+            </ol>
+        </div>
+        <div>
+            <label>
+                <input type="radio" name="rps" value="rock" />
+                <img src="assets/theRock.png" alt="a rock">
+            </label>
+            <label>
+                <input type="radio" name="rps" value="paper" checked />
+                <img src="assets/toiletPaper.png" alt="paper">
+            </label>
+            <label>
+                <input type="radio" name="rps" value="scissors" />
+                <img src="assets/trippyScissors.png" alt="scissors">
+            </label>
+        </div>
+        <div>
+            <img src="" alt="">
+        </div>
+        <div id="message-to-user"><br></div>
+
+        <div>
+            <hr>
+            <button id="throw-button">Throw</button>
+        </div>
+        <div>
+            Total Games:<span id="total"></span>
+        </div>
+        <div>
+            Wins:<span id="wins"></span>
+        </div>
+        <div>
+            Losses:<span id="losses"></span>
+        </div>
+        <div>
+            Draws:<span id="draws"></span>
+        </div>
+
+        <div>
+            <button id="clear-button">Lets Start Over</button>
+        </div>
+        <div id="results-string">
+        </div>
+    </main>
+    <footer>
+        <div class="copy gutter-right">&copy; 2021 Tyler P. Farris</div>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
